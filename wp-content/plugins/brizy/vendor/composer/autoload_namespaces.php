@@ -8,4 +8,5 @@ $baseDir = dirname($vendorDir);
 return array(
     'Twig_' => array($vendorDir . '/twig/twig/lib'),
     'Gaufrette' => array($vendorDir . '/knplabs/gaufrette/src'),
+    'Brizy' => array($vendorDir . '/bagrinsergiu/brizy-migration-utils/src'),
 );

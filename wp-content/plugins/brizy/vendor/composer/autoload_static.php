@@ -4,7 +4,7 @@
 
 namespace Composer\Autoload;
 
-class ComposerStaticInitfd56f4d22341c0668d7877caa0bee114
+class ComposerStaticInita884b470aa9d3a18c890e85e0a389fd0
 {
     public static $files = array (
         '8ec4222c68e580a23520eef4abe4380f' => __DIR__ . '/..' . '/shortpixel/shortpixel-php/lib/ShortPixel.php',
@@ -40,14 +40,21 @@ class ComposerStaticInitfd56f4d22341c0668d7877caa0bee114
                 0 => __DIR__ . '/..' . '/knplabs/gaufrette/src',
             ),
         ),
+        'B' => 
+        array (
+            'Brizy' => 
+            array (
+                0 => __DIR__ . '/..' . '/bagrinsergiu/brizy-migration-utils/src',
+            ),
+        ),
     );
 
     public static function getInitializer(ClassLoader $loader)
     {
         return \Closure::bind(function () use ($loader) {
-            $loader->prefixLengthsPsr4 = ComposerStaticInitfd56f4d22341c0668d7877caa0bee114::$prefixLengthsPsr4;
-            $loader->prefixDirsPsr4 = ComposerStaticInitfd56f4d22341c0668d7877caa0bee114::$prefixDirsPsr4;
-            $loader->prefixesPsr0 = ComposerStaticInitfd56f4d22341c0668d7877caa0bee114::$prefixesPsr0;
+            $loader->prefixLengthsPsr4 = ComposerStaticInita884b470aa9d3a18c890e85e0a389fd0::$prefixLengthsPsr4;
+            $loader->prefixDirsPsr4 = ComposerStaticInita884b470aa9d3a18c890e85e0a389fd0::$prefixDirsPsr4;
+            $loader->prefixesPsr0 = ComposerStaticInita884b470aa9d3a18c890e85e0a389fd0::$prefixesPsr0;
 
         }, null, ClassLoader::class);
     }
